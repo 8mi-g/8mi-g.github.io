@@ -7,24 +7,29 @@ body{
 	position:fixed;
 	top:0px;
 	padding:10px;
-	display:block;
+	flex-wrap:wrap;
+  justify-content:space-around;
 	z-index:5;
 	background-color:white;
+  box-shadow:0px 2px 2px lightgrey;
+  height:20px;
 }
 
 
 .but{
 	display:inline-block;
 	color:black;
-	font-family:helvetica;
-	width:30%;
+	font-family:futura;
+	width:25%;
 	font-size:14px;
 	justify-content:space-round;
+  text-align:right;
 
 }
 
 .but.logo{
 	font-size:25px;
+  text-align:left;
 }
 
 a{
@@ -33,17 +38,21 @@ a{
 	font-weight:bolder;
 }
 
+.but.logo a{
+  color:black;
+}
+
 .but a:hover{
 	color:grey;
-	text-decoration:underline;
+	text-decoration:line-through;
 }
 
 .intro{
 	padding:120px;
 	text-align:right;
-	font-family:helvetica;
-	font-size:12px;
-	line-height:15px;
+	font-family:gillsans;
+	font-size:15px;
+	line-height:20px;
 }
 
 .intro h2 {
@@ -152,10 +161,11 @@ text-shadow:0px 0px 5px 5px white;
   padding: 10px;
   background-color: white;
   color:black;
-  font-family:roboto;
+  font-family:gillsans;
   font-size:13px;
   position: relative;
   line-height:16px;
+  font-weight:normal;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -192,7 +202,7 @@ text-shadow:0px 0px 5px 5px white;
 }
 
 .head{
-	font-weight:bolder;
+	font-weight:bold;
 }
 
 img{
