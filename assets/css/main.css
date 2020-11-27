@@ -1,9 +1,60 @@
-body {
-	font-family: Helvetica,Arial,sans-serif;
-	font-size: 32px;
+body{
+	background-color:white;
 }
 
-a {
-	color:red;
+.menu{
+	width:100%;
+	position:fixed;
+	top:0px;
+	padding:10px;
+	display:block;
 }
 
+
+.but{
+	display:inline-block;
+	color:black;
+	font-family:helvetica;
+	padding:20px;
+	width:30%;
+	font-size:14px;
+	justify-content:space-round;
+
+}
+
+.but.logo{
+	font-size:25px;
+}
+
+a{
+	text-decoration:none;
+	color:black;
+	font-weight:bolder;
+}
+
+.but a:hover{
+	color:grey;
+	text-decoration:underline;
+}
+
+.intro{
+	padding:120px;
+	text-align:right;
+	font-family:helvetica;
+	font-size:12px;
+	line-height:15px;
+}
+
+.intro h2 {
+	font-family:futura;
+	font-size:80px;
+	line-height:100px;
+	text-align:left;
+}
+
+.intro h1{
+	font-family:futura;
+	font-size:45px;
+	text-align:right;
+	line-height:55px;
+}
